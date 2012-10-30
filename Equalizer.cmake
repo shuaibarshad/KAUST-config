@@ -1,5 +1,5 @@
 
-set(EQUALIZER_VERSION 1.5.0)
+set(EQUALIZER_PACKAGE_VERSION 1.5.0)
 set(EQUALIZER_DEPENDS REQUIRED VMMLIB Lunchbox Collage OpenGL Boost
                       OPTIONAL X11 gpusd GLStats)
 set(EQUALIZER_BOOST_COMPONENTS "system regex date_time serialization")
