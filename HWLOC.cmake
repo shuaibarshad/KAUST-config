@@ -1,5 +1,5 @@
 
-set(HWLOC_PACKAGE_VERSION 1.3)
+set(HWLOC_PACKAGE_VERSION 1.1)
 
 # can't autopain on Windows without too much hassle
 # can't build universal on OS X
