@@ -1,6 +1,6 @@
 
 set(EQUALIZER_PACKAGE_VERSION 1.5.0)
-set(EQUALIZER_DEPENDS REQUIRED VMMLIB Lunchbox Collage OpenGL Boost
+set(EQUALIZER_DEPENDS REQUIRED vmmlib Lunchbox Collage OpenGL Boost
                       OPTIONAL X11 hwsd GLStats HWLOC Qt4)
 set(EQUALIZER_BOOST_COMPONENTS "program_options")
 set(EQUALIZER_QT4_COMPONENTS "QtNetwork")
