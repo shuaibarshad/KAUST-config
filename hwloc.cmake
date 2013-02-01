@@ -1,5 +1,5 @@
 
-set(HWLOC_PACKAGE_VERSION 1.1)
+set(HWLOC_PACKAGE_VERSION 1.5)
 
 # can't autopain on Windows without too much hassle
 # can't build universal on OS X
@@ -15,8 +15,4 @@ set(HWLOC_NOPACKAGE ON)
 set(HWLOC_NOTEST ON)
 set(HWLOC_OPTIONAL ON)
 
-set(HWLOC_SOURCE "${CMAKE_SOURCE_DIR}/src/hwloc")
-set(HWLOC_EXTRA
-  PATCH_COMMAND cd ${HWLOC_SOURCE} && autoreconf -i
-  CONFIGURE_COMMAND ${HWLOC_SOURCE}/configure  "--prefix=${CMAKE_CURRENT_BINARY_DIR}/install" CPPFLAGS=-I${CMAKE_CURRENT_BINARY_DIR}/install/include LDFLAGS=-L${CMAKE_CURRENT_BINARY_DIR}/install/lib
-)
+set(HWLOC_EXTRA CONFIGURE_COMMAND ${CMAKE_COMMAND} -P hwloc_configure_cmd.cmake)
