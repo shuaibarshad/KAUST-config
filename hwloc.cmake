@@ -9,7 +9,7 @@ if(MSVC OR APPLE OR LINUX_PPC)
 endif()
 
 set(HWLOC_REPO_URL https://github.com/BlueBrain/hwloc.git)
-set(HWLOC_REPO_TAG display)
+set(HWLOC_REPO_TAG bbp)
 set(HWLOC_DEPENDS NVCtrl)
 set(HWLOC_NOPACKAGE ON)
 set(HWLOC_NOTEST ON)
