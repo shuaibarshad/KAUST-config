@@ -21,6 +21,6 @@ endif()
 
 set(SAGE_EXTRA
   CONFIGURE_COMMAND CC=gcc CXX=g++ ${CMAKE_COMMAND} -P SAGE_configure_cmd.cmake
-  BUILD_COMMAND CC=gcc CXX=g++ make -C ${SAGE_SOURCE} -f Makefile
+  BUILD_COMMAND CC=gcc CXX=g++ $(MAKE) -C ${SAGE_SOURCE} -f Makefile
   INSTALL_COMMAND make -C ${SAGE_SOURCE} -f Makefile PREFIX="${CMAKE_CURRENT_BINARY_DIR}/install/sage" install
 )
