@@ -1,5 +1,5 @@
 
-set(SAGE_PACKAGE_VERSION 3.0)
+set(SAGE_PACKAGE_VERSION 4.0) # 3.0 latest official version, force to use customized version
 set(SAGE_REPO_URL https://github.com/BlueBrain/SAGE.git)
 set(SAGE_REPO_TAG bbp)
 set(SAGE_SOURCE "${CMAKE_SOURCE_DIR}/src/SAGE")
