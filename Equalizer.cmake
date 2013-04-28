@@ -1,10 +1,10 @@
 
 set(EQUALIZER_PACKAGE_VERSION 1.5.0)
 set(EQUALIZER_DEPENDS
-  REQUIRED vmmlib Lunchbox Collage OpenGL Boost
+  REQUIRED vmmlib Lunchbox Collage OpenGL Boost BISON FLEX
   OPTIONAL X11 hwsd GLStats hwloc OpenSceneGraph SAGE OpenCV)
-set(EQUALIZER_DEB_DEPENDS libavahi-compat-libdnssd-dev libhwloc-dev bison flex
-  libboost-all-dev libx11-dev libgl1-mesa-dev libglewmx1.6-dev libspnav0
+set(EQUALIZER_DEB_DEPENDS bison flex
+  libx11-dev libgl1-mesa-dev libglewmx1.6-dev libspnav0
   libopenscenegraph-dev libopencv-dev)
 
 set(EQUALIZER_BOOST_COMPONENTS "program_options")
