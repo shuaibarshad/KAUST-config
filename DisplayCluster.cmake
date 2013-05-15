@@ -2,11 +2,12 @@
 set(DISPLAYCLUSTER_PACKAGE_VERSION 0.2.0)
 set(DISPLAYCLUSTER_REPO_URL https://github.com/BlueBrain/DisplayCluster.git)
 
-set(DISPLAYCLUSTER_DEPENDS REQUIRED Boost LibJpegTurbo FFMPEG MPI OpenGL Qt4 TUIO)
+set(DISPLAYCLUSTER_DEPENDS REQUIRED Boost LibJpegTurbo FFMPEG MPI OpenGL Qt4
+  TUIO GLUT)
 set(DISPLAYCLUSTER_BOOST_COMPONENTS "date_time serialization")
 set(DISPLAYCLUSTER_QT4_COMPONENTS "QtNetwork QtOpenGL QtXml QtXmlPatterns")
 set(DISPLAYCLUSTER_DEB_DEPENDS libavutil-dev libavformat-dev libavcodec-dev
-  libopenmpi-dev libjpeg-turbo8-dev libboost-date-time-dev
+  libopenmpi-dev libjpeg-turbo8-dev freeglut3-dev libboost-date-time-dev
   libboost-serialization-dev)
 set(DISPLAYCLUSTER_CMAKE_ARGS -DBUILD_DISPLAYCLUSTER=ON -DBUILD_DISPLAYCLUSTER_LIBRARY=ON -DBUILD_DESKTOPSTREAMER=ON -DENABLE_TUIO_TOUCH_LISTENER=ON)
 
