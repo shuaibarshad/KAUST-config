@@ -7,8 +7,8 @@ set(DISPLAYCLUSTER_DEPENDS REQUIRED Boost LibJpegTurbo FFMPEG MPI OpenGL Qt4
 set(DISPLAYCLUSTER_BOOST_COMPONENTS "date_time serialization")
 set(DISPLAYCLUSTER_QT4_COMPONENTS "QtNetwork QtOpenGL QtXml QtXmlPatterns")
 set(DISPLAYCLUSTER_DEB_DEPENDS libavutil-dev libavformat-dev libavcodec-dev
-  libopenmpi-dev libjpeg-turbo8-dev freeglut3-dev libxmu-dev
-  libboost-date-time-dev libboost-serialization-dev)
+  libopenmpi-dev libjpeg-turbo8-dev libturbojpeg libswscale-dev freeglut3-dev
+  libxmu-dev libboost-date-time-dev libboost-serialization-dev)
 set(DISPLAYCLUSTER_CMAKE_ARGS -DBUILD_DISPLAYCLUSTER=ON -DBUILD_DISPLAYCLUSTER_LIBRARY=ON -DBUILD_DESKTOPSTREAMER=ON -DENABLE_TUIO_TOUCH_LISTENER=ON)
 
 find_package(MPI)
