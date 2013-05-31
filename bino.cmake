@@ -5,9 +5,8 @@ if(MSVC OR APPLE)
 endif()
 
 set(BINO_PACKAGE_VERSION 1.4.0)
-set(BINO_REPO_URL git://git.savannah.nongnu.org/bino.git)
-set(BINO_REPO_TAG bino-1.4.0)
-set(BINO_DEPENDS Equalizer REQUIRED FFMPEG GLEW OpenAL Qt4)
+set(BINO_REPO_URL https://github.com/BlueBrain/bino.git)
+set(BINO_DEPENDS Equalizer REQUIRED FFMPEG GLEW_MX OpenAL Qt4)
 set(BINO_SOURCE "${CMAKE_SOURCE_DIR}/src/bino")
 set(BINO_OPTIONAL ON)
 set(BINO_EXTRA
