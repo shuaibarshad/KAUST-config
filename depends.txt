@@ -1,1 +1,1 @@
-config.vmml https://github.com/VMML/config.git master
+config.vmml https://github.com/VMML/config.git 2013.06

@@ -1,5 +1,5 @@
 set(GLSTATS_PACKAGE_VERSION 0.1.0)
 set(GLSTATS_REPO_URL https://github.com/Eyescale/GLStats.git)
-set(GLSTATS_REPO_TAG master)
+set(GLSTATS_REPO_TAG 0.2)
 set(GLSTATS_DEPENDS REQUIRED Lunchbox OpenGL)
 set(GLSTATS_DEB_DEPENDS libx11-dev libgl1-mesa-dev)
