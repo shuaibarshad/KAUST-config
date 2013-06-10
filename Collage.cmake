@@ -6,4 +6,4 @@ set(COLLAGE_DEB_DEPENDS librdmacm-dev libibverbs-dev librdmacm-dev libudt-dev
   libboost-system-dev)
 set(COLLAGE_BOOST_COMPONENTS "system regex date_time serialization")
 set(COLLAGE_REPO_URL https://github.com/Eyescale/Collage.git)
-set(COLLAGE_REPO_TAG master)
+set(COLLAGE_REPO_TAG 1.0)
