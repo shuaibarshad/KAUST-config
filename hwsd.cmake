@@ -7,3 +7,4 @@ set(HWSD_BOOST_COMPONENTS "program_options regex")
 set(HWSD_QT4_COMPONENTS "QtNetwork")
 set(HWSD_DEB_DEPENDS libx11-dev libgl1-mesa-dev libqt4-dev
   libboost-program-options-dev libboost-regex-dev)
+set(HWSD_FORCE_BUILD ${CI_BUILD})
