@@ -5,6 +5,6 @@ set(LUNCHBOX_REPO_TAG master)
 set(LUNCHBOX_DEPENDS eyescale eyescalePorts hwloc DNSSD LibJpegTurbo
                      REQUIRED Boost)
 set(LUNCHBOX_DEB_DEPENDS libboost-regex-dev libboost-serialization-dev
-  libhwloc-dev libavahi-compat-libdnssd-dev)
+  libhwloc-dev libavahi-compat-libdnssd-dev libjpeg-turbo8-dev libturbojpeg)
 set(LUNCHBOX_BOOST_COMPONENTS "regex serialization")
 set(LUNCHBOX_FORCE_BUILD ${CI_BUILD})
