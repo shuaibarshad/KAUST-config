@@ -1,6 +1,6 @@
 
 set(DISPLAYCLUSTER_PACKAGE_VERSION 0.2.0)
-set(DISPLAYCLUSTER_REPO_URL https://github.com/BlueBrain/DisplayCluster.git)
+set(DISPLAYCLUSTER_REPO_URL https://github.com/smadhueagle/DisplayCluster.git)
 
 set(DISPLAYCLUSTER_DEPENDS MPI
   REQUIRED Boost LibJpegTurbo FFMPEG OpenGL Qt4 TUIO GLUT)
