@@ -4,6 +4,7 @@ set(EQOGRE_DEPENDS REQUIRED Equalizer GLUT OGRE)
 set(EQOGRE_FORCE_BUILD ${CI_BUILD})
 
 set(EQOGRE_DEB_DEPENDS pkg-config freeglut3-dev)
+set(EQOGRE_PORT_DEPENDS freeglut ogre)
 
 # ogre does not install Ubuntu 13.10 on due to boost version conflicts
 if(NOT (LSB_RELEASE AND LSB_CODENAME STREQUAL "saucy"))
