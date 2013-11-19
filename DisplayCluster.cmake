@@ -10,8 +10,6 @@ set(DISPLAYCLUSTER_DEB_DEPENDS libavutil-dev libavformat-dev libavcodec-dev
   libxmu-dev libboost-date-time-dev libboost-serialization-dev libboost-test-dev)
 set(DISPLAYCLUSTER_PORT_DEPENDS ffmpeg freeglut boost poppler)
 set(DISPLAYCLUSTER_CMAKE_ARGS -DBUILD_DISPLAYCLUSTER_LIBRARY=ON -DBUILD_DESKTOPSTREAMER=ON -DENABLE_TUIO_TOUCH_LISTENER=ON -DENABLE_PDF_SUPPORT=ON)
-set(DISPLAYCLUSTER_CMAKE_BUILD_TYPE=Release)
-set(DISPLAYCLUSTER_ENABLE_PYTHON_SUPPORT=ON)
 
 
 
