@@ -7,7 +7,7 @@ set(DISPLAYCLUSTER_BOOST_COMPONENTS "program_options date_time serialization uni
 set(DISPLAYCLUSTER_QT4_COMPONENTS "QtCore QtGui QtNetwork QtOpenGL QtXml QtXmlPatterns QtSvg QtWebKit")
 set(DISPLAYCLUSTER_POPPLER_COMPONENTS "Qt4")
 set(DISPLAYCLUSTER_DEB_DEPENDS libavutil-dev libavformat-dev libavcodec-dev
-  libopenmpi-dev libjpeg-turbo8-dev libturbojpeg libswscale-dev freeglut3-dev
+  libopenmpi-dev openmpi-bin libjpeg-turbo8-dev libturbojpeg libswscale-dev freeglut3-dev
   libxmu-dev libpoppler-dev libboost-date-time-dev libboost-serialization-dev
   libboost-test-dev libboost-program-options-dev)
 set(DISPLAYCLUSTER_PORT_DEPENDS ffmpeg freeglut boost poppler)
