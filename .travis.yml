@@ -35,7 +35,6 @@ before_install:
  - sudo apt-get install -qq libboost-system-dev || /bin/true
  - sudo apt-get install -qq libboost-test-dev || /bin/true
  - sudo apt-get install -qq libboost-thread-dev || /bin/true
- - sudo apt-get install -qq libboost-timer-dev || /bin/true
  - sudo apt-get install -qq libfcgi-dev || /bin/true
  - sudo apt-get install -qq libgl1-mesa-dev || /bin/true
  - sudo apt-get install -qq libglewmx1.6-dev || /bin/true
