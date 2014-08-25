@@ -1,8 +1,9 @@
 set(DISPLAYCLUSTER_PACKAGE_VERSION 0.2.0)
-set(DISPLAYCLUSTER_REPO_URL https://github.com/smadhueagle/DisplayCluster.git)
+#set(DISPLAYCLUSTER_REPO_URL https://github.com/smadhueagle/DisplayCluster.git)
+set(DISPLAYCLUSTER_REPO_URL https://github.com/arshadsu/DisplayCluster.git)
 
 set(DISPLAYCLUSTER_DEPENDS REQUIRED Boost LibJpegTurbo Qt4 
-    OPTIONAL MPI Poppler GLUT OpenGL TUIO FFMPEG OpenMP FCGI)
+    OPTIONAL MPI Poppler GLUT OpenGL TUIO FFMPEG OpenMP FCGI SDL)
 set(DISPLAYCLUSTER_BOOST_COMPONENTS "program_options date_time serialization unit_test_framework regex")
 set(DISPLAYCLUSTER_QT4_COMPONENTS "QtCore QtGui QtNetwork QtOpenGL QtXml QtXmlPatterns QtSvg QtWebKit")
 set(DISPLAYCLUSTER_POPPLER_COMPONENTS "Qt4")
